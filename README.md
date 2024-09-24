@@ -76,7 +76,7 @@ game1.add_result(result1)
 Retrieve information:
 
 python
-Copy code
+
 print(player1.results())  # Get results for player1
 print(game1.players())     # Get players who played game1
 print(game1.average_score(player1))  # Get average score for player1 in game1
