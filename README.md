@@ -26,20 +26,20 @@ The Game Tracking System is a Python application designed to manage and analyze 
   - `players()`: Returns a unique list of all players that played the game.
   - `average_score(player)`: Returns the average score of a specified player for this game.
 
-### Player
+   ### Player
 
 - **Attributes**:
   - `username`: The player's unique username.
   - `_results`: A private list that stores results associated with the player.
 
-- **Methods**:
+-    **Methods**:
   - `add_result(result)`: Adds a result to the player's list of results.
   - `results()`: Returns a list of all results for the player.
   - `games_played()`: Returns a unique list of all games played by the player.
   - `played_game(game)`: Returns True if the player has played the specified game.
   - `num_times_played(game)`: Returns the number of times the player has played the specified game.
 
-### Result
+   ### Result
 
 - **Attributes**:
   - `player`: The player associated with the result.
@@ -80,3 +80,5 @@ python
 print(player1.results())  # Get results for player1
 print(game1.players())     # Get players who played game1
 print(game1.average_score(player1))  # Get average score for player1 in game1
+
+# RUN debug.py
